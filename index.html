@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>QuickQR - The Fast and Easy QR Code Generator</title>
+    <meta
+      name="description"
+      content="Generate custom QR codes quickly and easily with QuickQR. Our user-friendly interface allows you to create QR codes for your business, website, or personal use in just seconds. Start now!"
+    />
+    <meta
+      name="keywords"
+      content="QuickQR, QR code generator, custom QR codes, fast, easy, user-friendly, create QR codes, business, website, personal use."
+    />
+  </head>
+  <body>
+    <header class="px-1 bg-black text-white">
+      <nav class="flex items-center justify-between max-w-7xl mx-auto py-5">
+        <a href="/" class="text-2xl">QuickQR</a>
+        <a href="" class="rounded-full px-3 py-1 bg-blue-600">star on GitHub</a>
+      </nav>
+    </header>
+
+    <main class="px-1 bg-gray-800 min-h-screen">
+      <article class="max-w-5xl mx-auto py-28">
+        <h1 class="text-4xl font-bold text-center text-gray-300">
+          QuickQR - The Fast and Easy QR Code Generator
+        </h1>
+
+        <div class="my-20 flex flex-col max-w-2xl mx-auto">
+          <input
+            type="text"
+            name="userInput"
+            id="userInput"
+            required
+            class="rounded p-1 bg-gray-400 my-4 border-solid border-2"
+          />
+          <img src="" alt="" id="qrImage" class="my-4 transition-all" />
+          <button
+            class="rounded px-3 py-2 bg-gray-700 text-gray-100"
+            onclick="generateImage()"
+          >
+            Click to Generate QR
+          </button>
+        </div>
+      </article>
+    </main>
+
+    <footer class="px-1 py-3 bg-gray-600 text-gray-200 text-center">
+      <p>
+        Made with ❤ by
+        <a href="https://twitter.com/lokeshkavisth" target="_blank">lokesh</a>
+      </p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
